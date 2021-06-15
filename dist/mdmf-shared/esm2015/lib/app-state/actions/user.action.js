@@ -1,0 +1,19 @@
+/**
+ * Action to add an user
+ */
+export class AddUser {
+    constructor(payload) {
+        this.payload = payload;
+    }
+}
+AddUser.type = "[User] Add";
+/**
+ * Action to remove an user
+ */
+export class RemoveUser {
+    constructor(payload) {
+        this.payload = payload;
+    }
+}
+RemoveUser.type = "[User] Remove";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXNlci5hY3Rpb24uanMiLCJzb3VyY2VSb290IjoiLi4vLi4vLi4vcHJvamVjdHMvbWRtZi1zaGFyZWQvc3JjLyIsInNvdXJjZXMiOlsibGliL2FwcC1zdGF0ZS9hY3Rpb25zL3VzZXIuYWN0aW9uLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBOztHQUVHO0FBQ0gsTUFBTSxPQUFPLE9BQU87SUFHbEIsWUFBbUIsT0FBYTtRQUFiLFlBQU8sR0FBUCxPQUFPLENBQU07SUFBRyxDQUFDOztBQUZwQixZQUFJLEdBQUcsWUFBWSxDQUFDO0FBS3RDOztHQUVHO0FBQ0gsTUFBTSxPQUFPLFVBQVU7SUFHckIsWUFBbUIsT0FBYTtRQUFiLFlBQU8sR0FBUCxPQUFPLENBQU07SUFBRyxDQUFDOztBQUZwQixlQUFJLEdBQUcsZUFBZSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgVXNlciB9IGZyb20gXCIuLi9tb2RlbHMvVXNlclwiO1xyXG5cclxuLyoqXHJcbiAqIEFjdGlvbiB0byBhZGQgYW4gdXNlclxyXG4gKi9cclxuZXhwb3J0IGNsYXNzIEFkZFVzZXIge1xyXG4gIHN0YXRpYyByZWFkb25seSB0eXBlID0gXCJbVXNlcl0gQWRkXCI7XHJcblxyXG4gIGNvbnN0cnVjdG9yKHB1YmxpYyBwYXlsb2FkOiBVc2VyKSB7fVxyXG59XHJcblxyXG4vKipcclxuICogQWN0aW9uIHRvIHJlbW92ZSBhbiB1c2VyXHJcbiAqL1xyXG5leHBvcnQgY2xhc3MgUmVtb3ZlVXNlciB7XHJcbiAgc3RhdGljIHJlYWRvbmx5IHR5cGUgPSBcIltVc2VyXSBSZW1vdmVcIjtcclxuXHJcbiAgY29uc3RydWN0b3IocHVibGljIHBheWxvYWQ6IFVzZXIpIHt9XHJcbn1cclxuIl19

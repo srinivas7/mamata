@@ -1,0 +1,21 @@
+{
+  "name": "mdmf-shared",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^11.0.0-rc.2",
+    "@angular/core": "^11.0.0-rc.2"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/mdmf-shared.umd.js",
+  "module": "fesm2015/mdmf-shared.js",
+  "es2015": "fesm2015/mdmf-shared.js",
+  "esm2015": "esm2015/mdmf-shared.js",
+  "fesm2015": "fesm2015/mdmf-shared.js",
+  "typings": "mdmf-shared.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}
